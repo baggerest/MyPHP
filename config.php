@@ -1,8 +1,8 @@
 <?php
-error_reporting(0);
+    error_reporting(0);
 
-$server = array(
-		'user'=> 'baggerest',
+    $server = array(
+        'user'=> 'baggerest',
 		'password' => '0936970907',
 		'port_db' => 3306,
 		'db_name' => 'ragnarok',
@@ -16,7 +16,7 @@ $server = array(
 		'recoverpassword' => '忘記密碼',
 		'imformation' => '資料查詢',
 		'download' => '下載專區'
-);
+    );
 
-header("Content-Type:text/html; charset={$server['db_charset']}");
+    header("Content-Type:text/html; charset={$server['db_charset']}");
 ?>
