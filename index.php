@@ -12,4 +12,8 @@ include("message.php");
 
     echo "</body>";
     echo "</html>";
+
+    class S {
+        
+    }
 ?>
