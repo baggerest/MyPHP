@@ -7,7 +7,7 @@
 		'port_db' => 3306,
 		'db_name' => 'ragnarok',
 		'db_charset' => 'big5',
-		
+
 		'main' => '首頁',
 		'register' => '註冊',
 		'login' => '登入',
