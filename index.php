@@ -3,7 +3,6 @@ include("config.php");
 include("connect.php");
 include("function.php");
 include("message.php");
-include("classcase.php");
 
     echo "<html>";
     echo "<head>";
