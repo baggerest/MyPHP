@@ -3,6 +3,7 @@ include("config.php");
 include("connect.php");
 include("function.php");
 include("message.php");
+include("allclass.php");
 
     echo "<html>";
     echo "<head>";
