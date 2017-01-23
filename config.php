@@ -15,7 +15,8 @@
 		'changepassword' => '修改密碼',
 		'recoverpassword' => '忘記密碼',
 		'imformation' => '資料查詢',
-		'download' => '下載專區'
+		'download' => '下載專區',
+        'language' => $_SERVER['HTTP_ACCEPT_LANGUAGE'],
     );
 
     header("Content-Type:text/html; charset={$server['db_charset']}");

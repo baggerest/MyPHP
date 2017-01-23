@@ -10,7 +10,7 @@ include("allclass.php");
     echo "<link rel='shortcut icon' href='index.ico' type='image/ico'>";
     echo "</head>";
     echo "<body>";
-
+    echo "<img src=index.ico>";
     echo "</body>";
     echo "</html>";
 ?>
