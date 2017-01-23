@@ -7,16 +7,14 @@
 ?>
 
 <html>
-
     <head>
         <link rel='shortcut icon' href='index.ico' type='image/ico'>
-        <title></title>
+        <title><?php echo $language['zh-tw'];?></title>
     </head>
-
     <body>
         <div align=center>
             <a href=<?php echo($_SERVER['PHP_SELF']);?>><img src=index.ico></a>
+            <div><?php echo $server['language'];?></div>
         </div>
     </body>
-
 </html>
