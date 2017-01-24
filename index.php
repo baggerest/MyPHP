@@ -18,7 +18,7 @@
             <a href=<?php echo($_SERVER['PHP_SELF']);?>><img src=index.ico style="width: 128px;height: 128px">
             <div class="btn"><?php echo $server['main'];?></div></a>
         </div>
-        <div class="view">
+        <div class="language">
             <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
                 <select name="YourLocation" onChange="changed(this);">
                     <?php
