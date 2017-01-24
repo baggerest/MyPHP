@@ -1,8 +1,8 @@
 <?php
+    include("message.php");
     include("config.php");
     include("connect.php");
     include("function.php");
-    include("message.php");
     include("allclass.php");
 ?>
 
@@ -10,7 +10,7 @@
     <head>
         <link rel=stylesheet type="text/css" href="style.css">
         <link rel='shortcut icon' href='index.ico' type='image/ico'>
-        <title><?php echo $language['zh-tw'];?></title>
+        <title><?php echo $server['title'];?></title>
     </head>
     <body>
         <div class="mainbtn">
