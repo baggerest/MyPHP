@@ -8,7 +8,7 @@
 		'db_name' => 'ragnarok',
 		'db_charset' => 'utf8',
 
-		'main' => '首頁',
+		'main' => '炸彈私服論譠首頁',
 		'register' => '註冊',
 		'login' => '登入',
 		'logout' => '登出',

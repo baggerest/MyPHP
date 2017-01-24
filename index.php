@@ -13,9 +13,14 @@
         <title><?php echo $language['zh-tw'];?></title>
     </head>
     <body>
-        <div align=center class="fixed">
-            <a href=<?php echo($_SERVER['PHP_SELF']);?>><img src=index.ico></a>
-            <div class="btn"><?php echo $server['language'];?></div>
+        <div class="btu1">
+            <a href=<?php echo($_SERVER['PHP_SELF']);?>><img src=index.ico>
+            <div class="btn"><?php echo $server['main'];?></div></a>
         </div>
+        <?php
+            foreach ($language as $value){
+                echo $value."<br>";
+            }
+        ?>
     </body>
 </html>
