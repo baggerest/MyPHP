@@ -3,20 +3,20 @@
 
     $server = array(
         'user'=> 'baggerest',
-		'password' => '0936970907',
-		'port_db' => 3306,
-		'db_name' => 'ragnarok',
-		'db_charset' => 'utf8',
+        'password' => '0936970907',
+        'port_db' => 3306,
+        'db_name' => 'ragnarok',
+        'db_charset' => 'utf8',
 
-		'main' => 'å›žç§æœè«–è­ é¦–é ',
-        'title' => $language['zh-tw'].'ç§æœè«–è­ ',
-		'register' => 'è¨»å†Š',
-		'login' => 'ç™»å…¥',
-		'logout' => 'ç™»å‡º',
-		'changepassword' => 'ä¿®æ”¹å¯†ç¢¼',
-		'recoverpassword' => 'å¿˜è¨˜å¯†ç¢¼',
-		'imformation' => 'è³‡æ–™æŸ¥è©¢',
-		'download' => 'ä¸‹è¼‰å°ˆå€',
+        'main' => '¦^¨pªA½×ôÎ­º­¶',
+        'title' => $language['zh-tw'].'¨pªA½×ôÎ',
+        'register' => 'µù¥U',
+        'login' => 'µn¤J',
+        'logout' => 'µn¥X',
+        'changepassword' => '­×§ï±K½X',
+        'recoverpassword' => '§Ñ°O±K½X',
+        'imformation' => '¸ê®Æ¬d¸ß',
+        'download' => '¤U¸ü±M°Ï',
         'language' => $_SERVER['HTTP_ACCEPT_LANGUAGE'],
     );
 
