@@ -23,10 +23,11 @@
                 <select name="YourLocation" onChange="changed(this);">
                     <?php
                         foreach ($language as $value => $key){
-                            if(strtolower($value)=='zh-tw'){
-                                echo "<option value={$value} SELECTED>{$key} / {$value}</option>";
+                            $upper = strtoupper($value);
+                            if($upper=='ZH-TW'){
+                                echo "<option value={$upper} SELECTED>{$key} / {$upper}</option>";
                             }else{
-                                echo "<option value={$value}>{$key} / {$value}</option>";
+                                echo "<option value={$upper}>{$key} / {$upper}</option>";
                             }
                         }
                     ?>
