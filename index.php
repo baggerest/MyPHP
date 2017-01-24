@@ -17,10 +17,5 @@
             <a href=<?php echo($_SERVER['PHP_SELF']);?>><img src=index.ico>
             <div class="btn"><?php echo $server['main'];?></div></a>
         </div>
-        <?php
-            foreach ($language as $value){
-                echo $value."<br>";
-            }
-        ?>
     </body>
 </html>
