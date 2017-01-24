@@ -29,14 +29,15 @@
     div.btu1{
         position: fixed;
         width: 250px;
-        top: 0;
-        right: 0;
+        top: 10px;
+        right: 10px;
     }
 
     div.btn {
+        font-family: Consolas;
         position: fixed;
-        top: 260px;
-        right: 0;
+        top: 270px;
+        right: 10px;
         background: #60cb1b;
         font-size: 16px;
         padding: 10px 15px;
@@ -48,9 +49,9 @@
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
         border-radius: 5px;
-        -moz-box-shadow: 0 0 5px rgba(255, 255, 255, 0.6) inset, 0 0 3px rgba(220, 120, 200, 0.8);
-        -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.6) inset, 0 0 3px rgba(220, 120, 200, 0.8);
-        box-shadow: 0 0 5px rgba(255, 255, 255, 0.6) inset, 0 0 3px rgba(220, 120, 200, 0.8);
+        -moz-box-shadow: 0 0 5px rgba(255, 255, 255, 0.9) inset, 0 0 3px rgba(220, 120, 200, 0.8);
+        -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.9) inset, 0 0 3px rgba(220, 120, 200, 0.8);
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.9) inset, 0 0 3px rgba(220, 120, 200, 0.8);
         -webkit-animation-name: buttonLight;
         -webkit-animation-duration: 5s;
         -webkit-animation-iteration-count: infinite;
