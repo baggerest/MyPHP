@@ -58,6 +58,23 @@
         -webkit-animation-iteration-count: infinite;
     }
 
+    div.view {
+        position: fixed;
+        bottom: 0px;
+        right: 10px;
+    }
+
     a {
         text-decoration: none;
+    }
+
+    select {
+        font-size: 18px;
+        border-color: #c9c9c9;
+        border-width: medium;
+        border-style: dashed;
+        opacity: 0.5;
+        width: 240px;
+        font-family: 華康流隸體;
+        color: #f39700;
     }

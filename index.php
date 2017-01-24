@@ -17,5 +17,20 @@
             <a href=<?php echo($_SERVER['PHP_SELF']);?>><img src=index.ico>
             <div class="btn"><?php echo $server['main'];?></div></a>
         </div>
+        <div class="view">
+            <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
+                <select name="YourLocation">
+                    <?php
+                        foreach ($language as $value => $key){
+                            if(strtolower($value)=='zh-tw'){
+                                echo "<option value={$value} SELECTED>{$key}</option>";
+                            }else{
+                                echo "<option value={$value}>{$key}</option>";
+                            }
+                        }
+                    ?>
+                </select>
+            </form>
+        </div>
     </body>
 </html>
