@@ -6,7 +6,7 @@
 		'password' => '0936970907',
 		'port_db' => 3306,
 		'db_name' => 'ragnarok',
-		'db_charset' => 'big5',
+		'db_charset' => 'utf8',
 
 		'main' => '首頁',
 		'register' => '註冊',
