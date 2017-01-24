@@ -26,7 +26,7 @@
         }
     }
 
-    div.btu1{
+    div.mainbtn{
         position: fixed;
         width: 250px;
         top: 10px;
@@ -34,12 +34,12 @@
     }
 
     div.btn {
-        font-family: Consolas;
+        font-family: 華康流隸體;
         position: fixed;
         top: 270px;
         right: 10px;
         background: #60cb1b;
-        font-size: 16px;
+        font-size: 20px;
         padding: 10px 15px;
         color: #fff;
         text-align: center;

@@ -13,7 +13,7 @@
         <title><?php echo $language['zh-tw'];?></title>
     </head>
     <body>
-        <div class="btu1">
+        <div class="mainbtn">
             <a href=<?php echo($_SERVER['PHP_SELF']);?>><img src=index.ico>
             <div class="btn"><?php echo $server['main'];?></div></a>
         </div>
