@@ -10,6 +10,7 @@
     <head>
         <link rel=stylesheet type="text/css" href="style.css">
         <link rel='shortcut icon' href='index.ico' type='image/ico'>
+        <script type="text/javascript" src="script.js"></script>
         <title><?php echo $server['title'];?></title>
     </head>
     <body>
@@ -19,7 +20,7 @@
         </div>
         <div class="view">
             <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
-                <select name="YourLocation">
+                <select name="YourLocation" onChange="changed(this);">
                     <?php
                         foreach ($language as $value => $key){
                             if(strtolower($value)=='zh-tw'){
