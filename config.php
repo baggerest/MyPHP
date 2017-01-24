@@ -6,9 +6,9 @@
         'password' => '0936970907',
         'port_db' => 3306,
         'db_name' => 'ragnarok',
-        'db_charset' => 'utf8',
+        'db_charset' => 'big5',
 
-        'main' => '回私服論譠首頁',
+        'main' => '回論譠首頁',
         'title' => $language['zh-tw'].'私服論譠',
         'register' => '註冊',
         'login' => '登入',
