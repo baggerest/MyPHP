@@ -10,7 +10,7 @@
     <head>
         <link rel=stylesheet type="text/css" href="style.css">
         <link rel='shortcut icon' href='index.ico' type='image/ico'>
-        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="myscript.js"></script>
         <title><?php echo $server['title'];?></title>
     </head>
     <body>
