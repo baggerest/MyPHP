@@ -25,11 +25,11 @@
                 <select name="language_select" onChange="changed(this);">
                     <?php
                         foreach ($language as $value => $key){
-                            $upper = strtoupper($value);
-                            if($upper=='ZH-TW'){
-                                echo "<option value={$upper} SELECTED>{$key} / {$upper}</option>";
+                            $value = strtoupper($value);
+                            if($value=='ZH-TW'){
+                                echo "<option value={$value} SELECTED>{$key} / {$value}</option>";
                             }else{
-                                echo "<option value={$upper}>{$key} / {$upper}</option>";
+                                echo "<option value={$value}>{$key} / {$value}</option>";
                             }
                         }
                     ?>
@@ -39,11 +39,13 @@
                         $timeset = '';
                         foreach ($timezone as $value){
                             foreach ($value as $key => $item){
-                                if($key=='label'){
+                                $key = strtoupper($key);
+                                if($key=='LABEL'){
                                     $timeset = $item;
                                     echo "<optgroup label='".$item."'>";
                                 }else{
-                                    echo "<option title='".$timeset." - ".$item."' value='".$key."'>".$item."</option>";
+                                    $selectd =($key=='ASIA/TAIPEI')?" selected='selected'":"";
+                                    echo "<option title='".$timeset." - ".$item."' value='".$key."'".$selectd.">".$item."</option>";
                                 }
                             }
                             echo "</optgroup>";
