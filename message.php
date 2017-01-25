@@ -1,4 +1,16 @@
 <?php
+    $showmsg = array(
+        'main' => '回論譠首頁',
+        'title' => '私服論譠',
+        'register' => '註冊',
+        'login' => '登入',
+        'logout' => '登出',
+        'changepassword' => '修改密碼',
+        'recoverpassword' => '忘記密碼',
+        'imformation' => '資料查詢',
+        'download' => '下載專區',
+    );
+
     $language = array(
         'af' => '南非語',
         'sq' => '阿爾巴尼亞語',
