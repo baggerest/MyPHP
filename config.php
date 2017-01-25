@@ -9,7 +9,7 @@
         'db_charset' => 'big5',
 
         'main' => '回論譠首頁',
-        'title' => $language['zh-tw'].'私服論譠',
+        'title' => '私服論譠',
         'register' => '註冊',
         'login' => '登入',
         'logout' => '登出',
@@ -17,7 +17,7 @@
         'recoverpassword' => '忘記密碼',
         'imformation' => '資料查詢',
         'download' => '下載專區',
-        'language' => $_SERVER['HTTP_ACCEPT_LANGUAGE'],
+        'language' => strtoupper(strtok(strip_tags($_SERVER['HTTP_ACCEPT_LANGUAGE']), ',')),
     );
 
     header("Content-Type:text/html; charset={$server['db_charset']}");

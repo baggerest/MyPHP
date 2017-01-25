@@ -22,21 +22,17 @@
         </div>
         <div class="language">
             <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
-                <select name="language_select" onChange="changed(this);">
+                <select name="language_select">
                     <?php
                         foreach ($language as $value => $key){
                             $value = strtoupper($value);
-                            if($value=='ZH-TW'){
-                                echo "<option value={$value} SELECTED>{$key} / {$value}</option>";
-                            }else{
-                                echo "<option value={$value}>{$key} / {$value}</option>";
-                            }
+                            $selectd = ($value==$server['language'])?" selected='selected'":"";
+                            echo "<option value='{$value}' title='{$value} - {$key}'{$selectd}>{$key}</option>";
                         }
                     ?>
                 </select>
                 <select name="timezone_select">
                     <?php
-                        $timeset = '';
                         foreach ($timezone as $value){
                             foreach ($value as $key => $item){
                                 $key = strtoupper($key);
@@ -45,7 +41,7 @@
                                     echo "<optgroup label='".$item."'>";
                                 }else{
                                     $selectd =($key=='ASIA/TAIPEI')?" selected='selected'":"";
-                                    echo "<option title='".$timeset." - ".$item."' value='".$key."'".$selectd.">".$item."</option>";
+                                    echo "<option title='{$timeset} - {$item}' value='{$key}'{$selectd}>{$item}</option>";
                                 }
                             }
                             echo "</optgroup>";
