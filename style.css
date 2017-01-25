@@ -33,7 +33,7 @@
     }
 
     div.btn {
-        font-family: 華康流隸體;
+        font-family: 華康勘亭流;
         position: fixed;
         top: 158px;
         right: 10px;
@@ -71,8 +71,11 @@
         font-size: 18px;
         border-width: medium;
         border-style: none;
-        position: fixed;
         opacity: 0.5;
-        font-family: 華康流隸體;
+        font-family: 華康勘亭流;
         color: #666666;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 0.01px;
+        text-overflow: ' ';
     }
