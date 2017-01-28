@@ -6,7 +6,7 @@
         'password' => 'root',
         'port_db' => 3306,
         'db_name' => 'ragnarok',
-        'db_charset' => 'big5',
+        'db_charset' => 'utf8',
         'language' => strtoupper(strtok(strip_tags($_SERVER['HTTP_ACCEPT_LANGUAGE']), ',')),
     );
 

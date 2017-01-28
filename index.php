@@ -44,6 +44,15 @@
                         }
                     ?>
                 </select>
+                <select name="language_short_select">
+                    <?php
+                    foreach ($language_short as $key => $value){
+                        $key = strtoupper($key);
+                        $selectd =($key=='CHINESE TRADITIONAL')?" selected='selected'":"";
+                        echo "<option title='[ {$key} - {$value} ]' value='{$key}'{$selectd}>{$value}</option>";
+                    }
+                    ?>
+                </select>
             </form>
         </div>
     </body>

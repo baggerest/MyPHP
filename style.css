@@ -1,81 +1,81 @@
-    @-webkit-keyframes buttonLight {
-        from {
-            background: rgba(96, 203, 27,0.5);
-            -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.3) inset, 0 0 3px rgba(220, 120, 200, 0.5);
-            color: red;
-        }
-        25% {
-            background: rgba(196, 203, 27,0.8);
-            -webkit-box-shadow: 0 0 10px rgba(255, 155, 255, 0.5) inset, 0 0 8px rgba(120, 120, 200, 0.8);
-            color: blue;
-        }
-        50% {
-            background: rgba(196, 203, 127,1);
-            -webkit-box-shadow: 0 0 5px rgba(155, 255, 255, 0.3) inset, 0 0 3px rgba(220, 120, 100, 1);
-            color: orange;
-        }
-        75% {
-            background: rgba(196, 203, 27,0.8);
-            -webkit-box-shadow: 0 0 10px rgba(255, 155, 255, 0.5) inset, 0 0 8px rgba(120, 120, 200, 0.8);
-            color: black;
-        }
-        to {
-            background: rgba(96, 203, 27,0.5);
-            -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.3) inset, 0 0 3px rgba(220, 120, 200, 0.5);
-            color: green;
-        }
+@-webkit-keyframes buttonLight {
+    from {
+        background: rgba(96, 203, 27,0.5);
+        -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.3) inset, 0 0 3px rgba(220, 120, 200, 0.5);
+        color: red;
     }
+    25% {
+        background: rgba(196, 203, 27,0.8);
+        -webkit-box-shadow: 0 0 10px rgba(255, 155, 255, 0.5) inset, 0 0 8px rgba(120, 120, 200, 0.8);
+        color: blue;
+    }
+    50% {
+        background: rgba(196, 203, 127,1);
+        -webkit-box-shadow: 0 0 5px rgba(155, 255, 255, 0.3) inset, 0 0 3px rgba(220, 120, 100, 1);
+        color: orange;
+    }
+    75% {
+        background: rgba(196, 203, 27,0.8);
+        -webkit-box-shadow: 0 0 10px rgba(255, 155, 255, 0.5) inset, 0 0 8px rgba(120, 120, 200, 0.8);
+        color: black;
+    }
+    to {
+        background: rgba(96, 203, 27,0.5);
+        -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.3) inset, 0 0 3px rgba(220, 120, 200, 0.5);
+        color: green;
+    }
+}
 
-    div.mainbtn{
-        position: fixed;
-        top: 20px;
-        right: 20px;
-    }
+div.mainbtn{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
 
-    div.btn {
-        font-family: �رd�ɫF�y;
-        position: fixed;
-        top: 158px;
-        right: 10px;
-        width: 118px;
-        background: #60cb1b;
-        font-size: 20px;
-        padding: 10px 15px;
-        color: #fff;
-        text-align: center;
-        text-decoration: none;
-        font-weight: bold;
-        text-shadow: 0 -1px 1px rgba(0,0,0,0.3);
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
-        border-radius: 5px;
-        -moz-box-shadow: 0 0 5px rgba(255, 255, 255, 0.9) inset, 0 0 3px rgba(220, 120, 200, 0.8);
-        -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.9) inset, 0 0 3px rgba(220, 120, 200, 0.8);
-        box-shadow: 0 0 5px rgba(255, 255, 255, 0.9) inset, 0 0 3px rgba(220, 120, 200, 0.8);
-        -webkit-animation-name: buttonLight;
-        -webkit-animation-duration: 5s;
-        -webkit-animation-iteration-count: infinite;
-    }
+div.btn {
+    font-family: 華康勘亭流;
+    position: fixed;
+    top: 158px;
+    right: 10px;
+    width: 118px;
+    background: #60cb1b;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.3);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 5px rgba(255, 255, 255, 0.9) inset, 0 0 3px rgba(220, 120, 200, 0.8);
+    -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.9) inset, 0 0 3px rgba(220, 120, 200, 0.8);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.9) inset, 0 0 3px rgba(220, 120, 200, 0.8);
+    -webkit-animation-name: buttonLight;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+}
 
-    div.language {
-        position: fixed;
-        top: 10px;
-        left: 10px;
-    }
+div.language {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
 
-    a {
-        text-decoration: none;
-    }
+a {
+    text-decoration: none;
+}
 
-    select {
-        font-size: 18px;
-        border-width: medium;
-        border-style: none;
-        opacity: 0.5;
-        font-family: �رd�ɫF�y;
-        color: #666666;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        text-indent: 0.01px;
-        text-overflow: ' ';
-    }
+select {
+    font-size: 18px;
+    border-width: medium;
+    border-style: none;
+    opacity: 0.5;
+    font-family: 華康勘亭流;
+    color: #666666;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: ' ';
+}
