@@ -23,7 +23,7 @@
                         foreach ($language as $value => $key){
                             $value = strtoupper($value);
                             $selectd = ($value==$server['language'])?" selected='selected'":"";
-                            echo "<option value='{$value}' title='[ {$value} ] {$key}'{$selectd}>{$key}</option>";
+                            echo "<option value='{$value}' title='[ {$value} ] {$key}'{$selectd}>[ {$key} ]</option>";
                         }
                     ?>
                 </select>
@@ -37,7 +37,7 @@
                                     echo "<optgroup label='".$item."'>";
                                 }else{
                                     $selectd =($key=='ASIA/TAIPEI')?" selected='selected'":"";
-                                    echo "<option title='[ {$timeset} ] {$item}' value='{$key}'{$selectd}>{$item}</option>";
+                                    echo "<option title='[ {$timeset} ] {$item}' value='{$key}'{$selectd}>[ {$timeset} {$item} ]</option>";
                                 }
                             }
                             echo "</optgroup>";
@@ -49,7 +49,7 @@
                     foreach ($language_short as $key => $value){
                         $key = strtoupper($key);
                         $selectd =($key=='CHINESE TRADITIONAL')?" selected='selected'":"";
-                        echo "<option title='[ {$key} - {$value} ]' value='{$key}'{$selectd}>{$value}</option>";
+                        echo "<option title='[ {$key} - {$value} ]' value='{$key}'{$selectd}>[ {$value} ]</option>";
                     }
                     ?>
                 </select>
