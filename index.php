@@ -6,7 +6,7 @@
     <head>
         <link rel=stylesheet type="text/css" href="style.css">
         <link rel='shortcut icon' href='index.ico' type='image/ico'>
-        <script type="text/javascript" src="myscript.js"></script>
+        <script type="text/javascript" src="javascript.js"></script>
         <title><?php echo $showmsg['title'];?></title>
     </head>
     <body>
