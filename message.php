@@ -253,5 +253,4 @@ $timezone = array(
         'Pacific/Chatham' => '太平洋/查塔姆'),
     array('label' => 'UTC+14:00',
         'Pacific/Apia' => '太平洋/阿皮亞','Pacific/Kiritimati' => '太平洋/克里斯馬斯'),
-)
-?>
+);

@@ -16,4 +16,3 @@
     include("connect.php");
     include("function.php");
     include("allclass.php");
-?>

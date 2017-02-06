@@ -5,5 +5,3 @@
         echo $e->getMessage();
         die();
     }
-
-?>
