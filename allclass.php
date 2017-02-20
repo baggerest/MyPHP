@@ -4,3 +4,9 @@
             '' => '',
         );
     }
+
+    class functioncase {
+        function config(){
+
+        }
+    }
