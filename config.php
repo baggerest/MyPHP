@@ -8,6 +8,7 @@
         'db_name' => 'ragnarok',
         'db_charset' => 'utf8',
         'db_type' => 'mysql',
+        'charset_collate' => 'utf8_unicode_ci',
         'language' => strtoupper(strtok(strip_tags($_SERVER['HTTP_ACCEPT_LANGUAGE']), ',')),
     );
 
